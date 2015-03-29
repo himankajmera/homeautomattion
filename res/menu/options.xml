@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="@string/device_connect" 
+    android:showAsAction="ifRoom|withText" 
+    android:icon="@android:drawable/ic_menu_search" 
+    android:id="@+id/secure_connect_scan"/>
+<item android:title="@string/device_connect_insecure" 
+    android:showAsAction="ifRoom|withText" 
+    android:icon="@android:drawable/ic_menu_search" 
+    android:id="@+id/insecure_connect_scan"/>
+<item android:title="@string/discoverable" 
+    android:showAsAction="ifRoom|withText" 
+    android:icon="@android:drawable/ic_menu_mylocation" 
+android:id="@+id/discoverable"/>
+<item android:title="@string/about"
+    android:id="@+id/about">
+    
+</item>
+
+</menu>

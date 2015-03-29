@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="background_color">#c03f7fff</color>
+    <color name="status_color">#ffffffff</color>
+    <color name="label_color">#ff3fff3f</color>
+    <color name="ch1_color">#ffffff00</color>
+    <color name="ch2_color">#ffff0000</color>
+    <color name="temp1">#909090</color>
+    <color name="temp2">#0033cc</color>
+    <color name="white">#ffffff</color>
+</resources>

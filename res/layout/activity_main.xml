@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <ListView android:layout_height="match_parent"
+         android:layout_width="match_parent"
+           android:transcriptMode="alwaysScroll"
+           android:layout_weight="1"
+            android:stackFromBottom="true"
+             android:id="@+id/in"/>
+    
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <TextView android:layout_height="20dp"
+        android:layout_width="match_parent"
+        android:text="@string/send"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/temp1">"
+            
+        </TextView>
+    <LinearLayout android:layout_height="wrap_content"
+     android:layout_width="match_parent"
+      android:orientation="horizontal"
+      android:background="@color/temp1"
+      >
+      <Button android:layout_height="20dp" 
+          android:layout_width="wrap_content" 
+          android:id="@+id/button_1" 
+          android:text="On"
+          android:layout_marginLeft="5dp" 
+          android:background="@color/white"/>
+      <Button android:layout_height="20dp" 
+          android:layout_width="wrap_content" 
+          android:id="@+id/button_1f" 
+          android:text="Off"
+          android:layout_marginLeft="5dp" 
+          android:background="@color/white"/>
+      <TextView android:layout_height="25dp"
+          android:layout_width="200dp"
+          android:text="@string/status1"
+          android:layout_marginLeft="5dp" 
+          android:id="@+id/text1"/>
+    </LinearLayout>
+    <TextView android:layout_height="20dp"
+        android:layout_width="match_parent"
+        android:text="@string/send2"
+        android:textColor="@color/temp2"
+        android:layout_marginTop="10dp"></TextView>
+    <LinearLayout android:layout_height="wrap_content"
+     android:layout_width="match_parent"
+      android:orientation="horizontal"
+      
+      android:background="@color/temp2">
+      <Button android:layout_height="20dp" 
+          android:layout_width="wrap_content" 
+          android:id="@+id/button_2" 
+          android:text="On"
+          android:layout_marginLeft="5dp" 
+          android:background="@color/white"/>
+      <Button android:layout_height="20dp" 
+          android:layout_width="wrap_content" 
+          android:id="@+id/button_2f" 
+          android:text="Off"
+          android:layout_marginLeft="5dp" 
+          android:background="@color/white"/>
+      <TextView android:layout_height="25dp"
+          android:layout_width="200dp"
+          android:text="@string/status2"
+          android:id="@+id/text2"
+          android:layout_marginLeft="5dp" 
+          android:textColor="@color/status_color"/>
+    </LinearLayout>
+    <TextView android:layout_height="20dp"
+        android:layout_width="match_parent"
+        android:text="@string/send3"
+        android:textColor="@color/temp1"
+        android:layout_marginTop="10dp"></TextView>
+    <LinearLayout android:layout_height="wrap_content"
+     android:layout_width="match_parent"
+      android:orientation="horizontal"
+      android:background="@color/temp1"
+      >
+      <Button android:layout_height="20dp" 
+          android:layout_width="wrap_content" 
+          android:id="@+id/button_3" 
+          android:layout_marginLeft="5dp" 
+          android:text="On"
+          android:background="@color/white"/>
+      <Button android:layout_height="20dp" 
+          android:layout_width="wrap_content" 
+          android:id="@+id/button_3f" 
+          android:layout_marginLeft="5dp" 
+          android:text="Off"
+          android:background="@color/white"/>
+      <TextView android:layout_height="25dp"
+          android:layout_width="200dp"
+          android:text="@string/status3"
+          android:layout_marginLeft="5dp" 
+          android:id="@+id/text3"/>
+    </LinearLayout>
+    <TextView android:layout_height="20dp"
+        android:layout_width="match_parent"
+        android:text="@string/send4"
+        android:textColor="@color/temp2"
+        android:layout_marginTop="10dp"></TextView>
+    <LinearLayout android:layout_height="wrap_content"
+     android:layout_width="match_parent"
+      android:orientation="horizontal"
+      android:background="@color/temp2"
+      >
+      <Button android:layout_height="20dp" 
+          android:layout_width="wrap_content" 
+          android:id="@+id/button_4" 
+          android:layout_marginLeft="5dp" 
+          android:text="On"
+          android:background="@color/white"/>
+      <Button android:layout_height="20dp" 
+          android:layout_width="wrap_content" 
+          android:id="@+id/button_4f" 
+          android:layout_marginLeft="5dp" 
+          android:text="Off"
+          android:background="@color/white"/>
+      <TextView android:layout_height="25dp"
+          android:layout_width="200dp"
+          android:text="@string/status4"
+          android:id="@+id/text4"
+          android:layout_marginLeft="5dp" 
+          android:textColor="@color/status_color"
+          />
+    </LinearLayout>
+    
+    </LinearLayout>
+    
+
+</RelativeLayout>
